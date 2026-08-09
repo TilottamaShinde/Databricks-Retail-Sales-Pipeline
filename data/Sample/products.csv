@@ -1,0 +1,22 @@
+product_id,product_name,category,unit_price
+P001,Wireless Mouse,Electronics,24.99
+P002,Mechanical Keyboard,Electronics,79.90
+P003,USB-C Hub,Electronics,39.50
+P004,Laptop Stand,office ,34.95
+P005,Webcam,Electronics,49.99
+P006,Noise-Cancelling Headphones,Electronics,129.00
+P007,Desk Lamp,Home,29.95
+P008,Office Chair,Office,189.00
+P009,Notebook Set,Office,12.50
+P010,Ballpoint Pen Pack,Office,6.99
+P011,Water Bottle,HOME,18.75
+P012,Backpack,Accessories,54.90
+P013,Phone Charger,Electronics,22.00
+P014,Monitor,Electronics,229.00
+P015,External SSD,Electronics,99.95
+P016,Yoga Mat,fitness ,28.50
+P017,Coffee Mug,Home,11.99
+P018,Desk Organizer,Office,17.49
+P019,Power Bank,electronics,44.90
+P020,Bluetooth Speaker,Electronics,64.00
+P008,Office Chair,Office,189.00

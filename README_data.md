@@ -16,3 +16,9 @@ This is synthetic data created for a beginner Databricks medallion-architecture 
 - One missing customer reference and one unknown product reference
 
 These issues are intentional and will be handled in the Silver layer.
+
+## Pipeline Status
+
+- Bronze layer: Completed
+- Silver layer: Completed
+- Gold layer: In progress

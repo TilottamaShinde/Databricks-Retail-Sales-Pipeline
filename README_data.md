@@ -16,6 +16,30 @@ Gold Layer — Business aggregations
 ↓
 Databricks Dashboard
 
+## Medallion Architecture
+
+### 🥉 Bronze Layer
+- Ingested raw `customers`, `products`, and `orders` CSV data.
+- Preserved source data with minimal transformation.
+- Stored the datasets as Delta tables in the Bronze schema.
+
+### 🥈 Silver Layer
+- Removed duplicate records.
+- Standardized text values and order statuses.
+- Handled missing values.
+- Removed invalid zero/negative quantities.
+- Validated customer and product references.
+- Produced clean, validated Delta tables for analytics.
+
+### 🥇 Gold Layer
+Created business-ready datasets for reporting and analysis:
+
+- Monthly revenue
+- Revenue by product
+- Revenue by country
+- Average order value
+- Top customers by revenue
+
 **Orchestration:** Databricks Workflows  
 **Schedule:** Daily automated execution  
 **Monitoring:** Failure notifications

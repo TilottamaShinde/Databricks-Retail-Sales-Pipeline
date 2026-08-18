@@ -1,6 +1,24 @@
-# Retail Sales Analytics starter data
+# Databricks Retail Sales Analytics Pipeline
 
-This is synthetic data created for a beginner Databricks medallion-architecture portfolio project.
+An end-to-end retail sales analytics pipeline built using **Databricks, PySpark, Delta Lake, SQL, and Medallion Architecture**.
+
+The project transforms raw retail data through **Bronze, Silver, and Gold layers**, applies data-quality and business transformations, produces analytics-ready datasets, visualizes key business metrics through a Databricks dashboard, and orchestrates the complete pipeline using Databricks Workflows.
+
+## Architecture
+
+Raw CSV Files
+↓
+Bronze Layer — Raw ingestion
+↓
+Silver Layer — Cleaning & data quality
+↓
+Gold Layer — Business aggregations
+↓
+Databricks Dashboard
+
+**Orchestration:** Databricks Workflows  
+**Schedule:** Daily automated execution  
+**Monitoring:** Failure notifications
 
 ## Files
 - `customers.csv`: customer master data
